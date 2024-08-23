@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-03</title>
+
+    <!-- border border-red-600 -->
+
+    <!-- DaisyUI Play CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Customization Color -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "color-01": "#ABEF5F",
+              "color-02": "#494949",
+              "color-03": "#737373",
+              "color-04": "rgb(233,233,233)",
+              "color-05": "rgb(255,255,255)",
+              "color-06": "#ABEF5F80",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="md:container md:mx-auto bg-white border border-color-04">
+      <!-- NavBar -->
+      <nav>
+        <div class="navbar bg-base-100">
+          <!-- NavBar Start -->
+          <div class="navbar-start space-x-2 grow">
+            <div
+              class="bg-color-01 w-10 h-10 rounded-full flex justify-center items-center"
+            >
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </div>
+            <h3 class="text-3xl font-bold">Rinterio</h3>
+          </div>
+          <!-- NavBar Center -->
+          <div class="navbar-center hidden md:flex pt-2">
+            <ul class="menu menu-horizontal px-1">
+              <li class="text-xl text-color-02 font-bold"><a>Home</a></li>
+              <li class="text-xl text-color-03">
+                <a>Services</a>
+              </li>
+              <li class="text-xl text-color-03"><a>Portfolio</a></li>
+              <li class="text-xl text-color-03"><a>Blogs</a></li>
+              <li class="text-xl text-color-03"><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- NavBar End -->
+          <div
+            class="navbar-end hidden md:flex justify-end items-center space-x-5 pt-2"
+          >
+            <div
+              class="bg-white border-2 border-color-04 w-10 h-10 rounded-full flex justify-center items-center"
+            >
+              <i class="fa-solid fa-search"></i>
+            </div>
+            <div
+              class="bg-white border-2 border-color-04 w-10 h-10 rounded-full flex justify-center items-center"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div
+              class="flex justify-center items-center space-x-2 px-5 py-3 bg-color-01 rounded-full"
+            >
+              <button class="font-bold text-xl">Book Consult</button>
+              <div
+                class="bg-black w-9 h-9 rounded-full flex justify-center items-center"
+              >
+                <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Hidden Bar for Mobile -->
+          <div
+            class="md:hidden bg-white border-2 border-color-04 w-10 h-10 rounded-full flex justify-center items-center"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <!-- Banner Section -->
+      <section>
+        <div class="flex justify-center items-center w-full">
+          <img
+            class="w-2/3 md:w-1/3"
+            src="./images/banner.png"
+            alt="Banner Image"
+          />
+        </div>
+        <div class="space-y-5">
+          <h1
+            class="text-7xl font-bold w-4/5 border border-red-600 mx-auto text-center py-3"
+          >
+            A barn house of this design has a striking appearance
+          </h1>
+          <h3 class="w-3/4 text-xl text-center mx-auto">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents, and
+            large windows that flood the space with natural light.
+          </h3>
+        </div>
+        <div class="w-full border border-red-600">
+          <div
+            class="w-52 flex justify-center space-x-2 px-5 py-3 my-5 bg-color-06 rounded-full border border-green-600 container mx-auto"
+          >
+            <button class="font-bold text-xl">View Details</button>
+            <div
+              class="bg-color-01 w-9 h-9 rounded-full flex justify-center items-center"
+            >
+              <i class="fa-solid fa-arrow-right -rotate-45"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- Main Section -->
+    <main></main>
+    <!-- Footer Section -->
+    <footer></footer>
+  </body>
+</html>

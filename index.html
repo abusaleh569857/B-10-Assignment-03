@@ -185,10 +185,10 @@
       <section class="md:container md:mx-auto bg-color-07 border">
         <!-- Liveable Container -->
         <div
-          class="flex flex-col md:flex-row justify-center items-center m-5 md:m-20 space-y-5 md:space-x-5"
+          class="flex flex-col md:flex-row justify-center items-center m-5 md:m-20 gap-5"
         >
           <!-- Liveable Content Left-->
-          <div class="flex flex-col space-y-4">
+          <div class="flex flex-col space-y-4 md:h-[480px]">
             <!-- About Us Button -->
             <div
               class="flex justify-center items-center md:justify-start relative"
@@ -251,8 +251,12 @@
             </div>
           </div>
           <!-- Liveable Image -->
-          <div class="w-full md:w-4/5">
-            <img src="./images/Rectangle.png" alt="Home Image" />
+          <div class="w-full md:w-4/5 h-[480px]">
+            <img
+              src="./images/Rectangle.png"
+              alt="Home Image"
+              class="w-full h-full"
+            />
           </div>
         </div>
         <!-- Our Work Process -->
@@ -348,7 +352,7 @@
                   <img
                     src="./images/img1.png"
                     alt=""
-                    class="w-full h-[190px]"
+                    class="w-full h-auto md:h-[190px]"
                   />
                 </div>
                 <!-- Image-1 content  -->
@@ -373,20 +377,16 @@
                 </div>
               </div>
             </div>
-            <!-- Image-2 -->
-            <!-- <div
-              class="w-full md:w-2/5 h-[222px] border border-color-04 rounded-3xl"
+            <!-- First Line Image-2 -->
+
+            <div
+              class="w-full md:w-1/3 h-[300] md:h-[222px] p-4 border border-color-04 rounded-3xl"
             >
               <img
                 src="./images/img2.png"
                 alt=""
-                class="w-full h-[190px] p-4"
+                class="w-full h-[268px] md:h-[190px]"
               />
-            </div> -->
-            <div
-              class="w-full md:w-1/3 h-[222px] p-4 border border-color-04 rounded-3xl"
-            >
-              <img src="./images/img2.png" alt="" class="w-full h-[190px]" />
             </div>
           </div>
         </div>
@@ -395,9 +395,13 @@
           <div class="w-full flex flex-col md:flex-row gap-5 mt-5 mb-20">
             <!-- First Image -->
             <div
-              class="w-full md:w-1/4 h-[222px] p-4 border border-color-04 rounded-3xl"
+              class="w-full md:w-1/4 h-auto md:h-[222px] p-4 border border-color-04 rounded-3xl"
             >
-              <img src="./images/img3.png" alt="" class="w-full h-[190px]" />
+              <img
+                src="./images/img3.png"
+                alt=""
+                class="w-full h-auto md:h-[190px]"
+              />
             </div>
             <!-- Second Image & Content -->
             <div
@@ -427,9 +431,13 @@
             </div>
             <!-- Third Image -->
             <div
-              class="w-full md:w-1/4 h-[222px] p-4 border border-color-04 rounded-3xl"
+              class="w-full md:w-1/4 h-auto md:h-[222px] p-4 border border-color-04 rounded-3xl"
             >
-              <img src="./images/img5.png" alt="" class="w-full h-[190px]" />
+              <img
+                src="./images/img5.png"
+                alt=""
+                class="w-full h-auto md:h-[190px]"
+              />
             </div>
           </div>
         </div>
